@@ -1,5 +1,5 @@
 {
-    "name": "odiseoteam/sylius-referrals-plugin",
+    "name": "3attar/sylius-referrals-plugin",
     "type": "sylius-plugin",
     "keywords": [
         "sylius",
@@ -10,8 +10,8 @@
     "description": "Referrals plugin for Sylius. Affiliate program",
     "license": "MIT",
     "require": {
-        "php": "^7.4 || ^8.0",
-        "sylius/sylius": "^1.10"
+        "php": "^7.3|| ^7.4 || ^8.0",
+        "sylius/sylius": "~1.9.0"
     },
     "require-dev": {
         "behat/behat": "^3.6.1",
