@@ -1,7 +1,9 @@
-<div class="ui breadcrumb">
-    <a href="{{ path('sylius_shop_homepage') }}" class="section">{{ 'sylius.ui.home'|trans }}</a>
-    <div class="divider"> / </div>
-    <a href="{{ path('sylius_shop_account_dashboard') }}" class="section">{{ 'sylius.ui.my_account'|trans }}</a>
-    <div class="divider"> / </div>
-    <div class="active section">{{ 'odiseo_sylius_referrals_plugin.ui.affiliates_program'|trans }}</div>
+<div class="ps-breadcrumb">
+    <div class="container">
+        <ul class="ps-breadcrumb__list">
+            <li class="active"><a href="{{ path('sylius_shop_homepage') }}">{{ 'sylius.ui.home'|trans }}</a></li>
+            <li><a href="{{ path('sylius_shop_account_dashboard') }}">{{ 'sylius.ui.my_account'|trans }}</a></li>
+            <li>{{ 'odiseo_sylius_referrals_plugin.ui.affiliates_program'|trans }}</li>
+        </ul>
+    </div>
 </div>
