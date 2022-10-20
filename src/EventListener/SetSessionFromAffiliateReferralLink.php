@@ -34,7 +34,7 @@ class SetSessionFromAffiliateReferralLink
 
     public function setSession(RequestEvent $event): void
     {
-        if ($event->getRequestType() !== HttpKernelInterface::MAIN_REQUEST) {
+        if ($event->getRequestType() !== HttpKernelInterface::MASTER_REQUEST) {
             return;
         }
 
