@@ -2,10 +2,18 @@
     <div class="ui form">
         <div class="field">
             <label>{{ 'odiseo_sylius_referrals_plugin.ui.referral_url'|trans }}</label>
-            <input type="text" value="{{ link }}" readonly>
+            <input id ="textId" type="text" value="{{ link }}" readonly>
+            <button id="copyBtn"> {{ 'odiseo_sylius_referrals_plugin.ui.share_link'|trans   }}</button>
+
             <div class="ui pointing above ignored label">
                 <p class="help-text">{{ 'odiseo_sylius_referrals_plugin.ui.copy_this_referral_link'|trans }}</p>
             </div>
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    document.getElementById("copyBtn").onclick = function () {
+        let text = document.getElementById("textId").value;
+        navigator.clipboard.writeText(text);
+    }
+</script>

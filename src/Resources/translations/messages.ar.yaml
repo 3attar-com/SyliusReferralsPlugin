@@ -1,0 +1,24 @@
+odiseo_sylius_referrals_plugin:
+    ui:
+        referral_url: لينك الترشيح 
+        copy_this_referral_link: انسخ الرابط وقم بالمشاركه مع اصدقاءك
+        share_link: شارك الرابط
+        you_must_be_identified_to_share_link: |
+            Affiliates program: <a href="%url%">Sign in</a> to create your unique url to be shared and win rewards for each purchase
+        you_are_identified_to_share_link: |
+            Affiliates program: Click in the next button to copy your unique url to be shared and win rewards for each purchase
+        affiliates_program: برنامج التسويق بالتبعية
+        manage_affiliates_program: ادارة برنامج التسويق بالتبعية
+        total_visits: مجموع الزيارات
+        total_visits_description: المستخدمون الذين اتبعوا الرابط الخاص بك 
+        total_sales: مجموع المبيعات
+        total_sales_description: إجمالي المبيعات التي تمت من خلال الرابط الخاص بك
+        average: معدل التحويل
+        average_description: متوسط المبيعات بالزيارات
+    email:
+        shop:
+            promotion_reward:
+                subject: A new coupon has been created!
+                the_coupon: The coupon
+                has_been_created: has been created
+                follow_link: Follow this link to view your program
